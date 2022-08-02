@@ -36,5 +36,7 @@ Invoke-VulnAD -UsersLimit 100 -DomainName "cs.org"
 ```
 
 ### TODO
-- Play with workstations !
-- Click close issue button on github
+- vulnerable kerberos constrained delegation
+- vulnerable kerberos unconstrained delegation
+- Syncebreeze 10.0.28 for buffer overflow
+- setup OWASP Juice Shop?
