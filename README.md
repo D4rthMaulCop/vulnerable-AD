@@ -36,7 +36,7 @@ Invoke-VulnAD -UsersLimit 100 -DomainName "cs.org"
 ```
 
 ### TODO
-- vulnerable kerberos constrained delegation
-- vulnerable kerberos unconstrained delegation
-- Syncebreeze 10.0.28 for buffer overflow
-- setup OWASP Juice Shop?
+- [ ] vulnerable kerberos constrained delegation
+- [ ] vulnerable kerberos unconstrained delegation
+- [ ] Syncebreeze 10.0.28 for buffer overflow
+- [ ] setup OWASP Juice Shop?
