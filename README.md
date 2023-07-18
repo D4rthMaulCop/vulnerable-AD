@@ -18,7 +18,7 @@ Create a vulnerable active directory that's allowing you to test most of active 
 - Abuse DnsAdmins
 - Password in Object Description
 - User Objects With Default password (Changeme123!)
-- Password Spraying
+- Password Spraying (ncc1701)
 - DCSync
 - Silver Ticket
 - Golden Ticket 
